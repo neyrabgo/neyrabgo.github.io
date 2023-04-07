@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Raleway', 'Sans serif';
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.i-left{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.i-name{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.i-iam{
+    opacity: 0.5;
+    font-size: 1.0rem;
+}
+
+.i-right{
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 5px;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.country{
+    opacity: 0.5;
+    font-size: 1.0rem;
+    text-align: right;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-like{
+    margin: 25px 0;
+    padding: 25px 75px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+p>a{
+    opacity: 0.5;
+    font-size: 1.0rem;
+}
+
+article{   
+    padding: 15px;
+    width: 90%;
+    height: auto;
+    border: 0.1px solid #dddddd;
+    border-radius: 15px;
+}
+
+.date{
+    opacity: 0.5;   
+    font-size: 1.0rem;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+iframe{
+    width: 100%;
+    height: 265px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    padding: 20px;
+    margin-top: 25px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+
+.CTA{
+    width: 200px;
+    text-align: center;
+    padding: 0 25px;
+    font-weight: 300;
+}
+
+.copyright{
+    font-size: 1.4rem;
+    padding: 10px 0;
+}
+
+.CTA .contact{
+    text-decoration: no;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.0rem;
+}
+
+.social{
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding: 10px 0;
+}
+
+.social a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.0rem;
+    padding: 2px 1px;
+}
