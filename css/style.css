@@ -27,13 +27,14 @@ header{
 }
 
 h1{
-    font-weight: 400;
-    font-size: 1.4rem;
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .i-iam{
     opacity: 0.5;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .i-right{
@@ -41,14 +42,15 @@ h1{
     margin-right: 15px;
     padding: 5px;
 
-    font-weight: 400;
-    font-size: 1.4rem;
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .country{
     opacity: 0.5;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     text-align: right;
+    font-weight: 400;
 }
 
 main{
@@ -63,15 +65,18 @@ main{
     padding: 25px 75px;
     text-align: center;
     font-size: 1.4rem;
+    line-height: 24px;
     font-weight: 300;
 }
 
 p>a{
-    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 1.0rem;
+    text-decoration: none;
 }
 
 article{   
+    margin-bottom: 40px;
     padding: 15px;
     width: 90%;
     height: auto;
@@ -103,7 +108,6 @@ footer{
     
     width: 100%;
     padding: 20px;
-    margin-top: 25px;
     background: rgba(0, 0, 0, 0.75);
     color: #fff;
 }
@@ -114,11 +118,13 @@ footer{
     text-align: center;
     padding: 0 25px;
     font-weight: 300;
+    line-height: 18px;
 }
 
 .copyright{
     font-size: 1.4rem;
     padding: 10px 0;
+    font-weight: 700;
 }
 
 .CTA .contact{
